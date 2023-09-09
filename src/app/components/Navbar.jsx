@@ -24,7 +24,7 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 bg-[#121212] bg-opacity-90 z-10">
+    <nav className="fixed top-0 left-0 right-0 bg-[#121212] bg-opacity-95 z-10">
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
@@ -33,7 +33,7 @@ const Navbar = () => {
           LOGO
         </Link>
 
-        <div className=" mobile-menu block md:hidden">
+        <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
             <button
               onClick={() => setNavbarOpen(true)}
