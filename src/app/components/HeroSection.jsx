@@ -10,7 +10,7 @@ const HeroSection = () => {
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white mb-4 text-4xl am:Text-5xl lg:text-6xl font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-              Hi, Im{" "}
+              Hi, I&apos;m{" "}
             </span>
             <br></br>
             <TypeAnimation
@@ -26,14 +26,14 @@ const HeroSection = () => {
                 1000,
               ]}
               wrapper="span"
-              speed={50}
+              speed={40}
               // style={{ fontSize: "2em", display: "inline-block" }}
               repeat={Infinity}
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
-            Im a software engineer based in New York. Im passionate about
-            building beautiful and intuitive web applications.
+            I&apos;m a software engineer based in New York. I&apos;m passionate
+            about building beautiful and intuitive web applications.
           </p>
           <div>
             <button className="px-6 py-3 rounded-full sm:w-fit mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 bg-white text-white hover:bg-slate-200">
