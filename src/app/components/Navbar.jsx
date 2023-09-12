@@ -48,12 +48,7 @@ const Navbar = () => {
       <div className="flex container lg:py-3 flex-wrap items-center justify-between mx-auto pl-1 px-4 py-2">
         <div className="w-[50px] h-[50px] lg:w-[60px] lg:h-[60px] relative">
           <Link href={"/"}>
-            <Image
-              src="/images/logo2.png"
-              alt="logo"
-              width={150}
-              height={150}
-            />
+            <Image src="/images/logo.png" alt="logo" width={150} height={150} />
           </Link>
         </div>
         <div className="mobile-menu block md:hidden">
