@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -26,7 +27,7 @@ const HeroSection = () => {
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
                 "Web Developer",
                 1000,
-                "Mobile Developer",
+                "Software Developer",
                 1000,
                 "UI/UX Designer",
                 1000,
@@ -38,17 +39,27 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6">
-            I&apos;m a software engineer based in New York. I&apos;m passionate
-            about building beautiful and intuitive web applications.
+            I&apos;m a software engineer with a passion for crafting stunning
+            and user-friendly web applications. Dive into my world of software
+            development expertise on this portfolio website...
           </p>
           <div>
-            <button className="px-6 py-3 rounded-full sm:w-fit mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 bg-white text-white hover:bg-slate-200">
+            <Link
+              href="https://www.linkedin.com/in/arhaanhamid"
+              className="px-6 py-3 rounded-full sm:w-fit mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 bg-white text-white hover:bg-slate-200"
+            >
               Hire Me
-            </button>
+            </Link>
             <button className="px-1 py-1 rounded-full sm:w-fit bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-whit mt-3">
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
-              </span>
+              <Link
+                href={`https://drive.google.com/uc?export=download&id=${process.env.NEXT_PUBLIC_RESUME_ID}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                  Download CV
+                </span>
+              </Link>
             </button>
           </div>
         </motion.div>

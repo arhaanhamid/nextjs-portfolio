@@ -9,11 +9,13 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>HTML</li>
-        <li>CSS</li>
         <li>Javascript</li>
-        <li>React</li>
-        <li>Redux</li>
+        <li>ReactJs</li>
+        <li>NextJs</li>
+        <li>TailwindCSS</li>
+        <li>Java</li>
+        <li>SpringBoot</li>
+        <li>MySQL</li>
       </ul>
     ),
   },
@@ -22,11 +24,9 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>NextJS</li>
-        <li>GatsbyJS</li>
-        <li>GraphQL</li>
-        <li>NodeJS</li>
-        <li>ExpressJS</li>
+        <li>B.Sc IT</li>
+        <li>M.Sc IT</li>
+        <li>React + SpringBoot Full Stack Course</li>
       </ul>
     ),
   },
@@ -35,11 +35,7 @@ const TAB_DATA = [
     id: "experience",
     content: (
       <ul className="list-disc pl-2">
-        <li>MongoDB</li>
-        <li>Mongoose</li>
-        <li>PostgreSQL</li>
-        <li>MySQL</li>
-        <li>AWS</li>
+        <li>Google App Script Developer at Zillion Analytics</li>
       </ul>
     ),
   },
@@ -59,6 +55,15 @@ const AboutSection = () => {
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap:16 sm:py-16 xl:px-16">
         <Image src="/images/about-me.png" width={500} height={500} alt="" />
+        {/* <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+          <Image
+            src="/images/me.png"
+            alt="avatar"
+            className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            width={500}
+            height={500}
+          />
+        </div> */}
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">

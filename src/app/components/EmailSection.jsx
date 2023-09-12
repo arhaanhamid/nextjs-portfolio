@@ -25,7 +25,12 @@ const EmailSection = () => {
       message: e.target.message.value,
     };
 
-    send(SERVICE_ID, TEMPLATE_ID, data, USER_ID)
+    send(
+      process.env.NEXT_PUBLIC_SERVICE_ID,
+      process.env.NEXT_PUBLIC_TEMPLATE_ID,
+      data,
+      process.env.NEXT_PUBLIC_USER_ID
+    )
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
         setEmailSubmitted(true);
@@ -52,10 +57,10 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
+          <Link href="https://www.github.com/arhaanhamid">
             <Image src={GithubIcon} alt="Github Icon" />
           </Link>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/in/arhaanhamid/">
             <Image src={LinkedinIcon} alt="LinkedIn Icon" />
           </Link>
         </div>
@@ -76,7 +81,7 @@ const EmailSection = () => {
               id="email"
               required
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="jacob@google.com"
+              placeholder="Email..."
             />
           </div>
           <div className="mb-6">
@@ -84,7 +89,7 @@ const EmailSection = () => {
               htmlFor="subject"
               className="text-white block mb-2 text-sm font-medium"
             >
-              Your Subject
+              Subject
             </label>
             <input
               name="subject"
@@ -92,7 +97,7 @@ const EmailSection = () => {
               id="subject"
               required
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="Just saying hii"
+              placeholder="Just saying hi"
             />
           </div>
           <div className="mb-6">
