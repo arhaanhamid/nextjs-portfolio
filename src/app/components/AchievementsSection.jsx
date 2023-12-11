@@ -20,10 +20,6 @@ const achievementsList = [
     metric: "Users",
     value: "100",
   },
-  // {
-  //   metric: "Awards",
-  //   value: "7",
-  // },
   {
     metric: "Years",
     value: "1",

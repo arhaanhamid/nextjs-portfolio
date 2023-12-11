@@ -7,57 +7,57 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "NextJS Portfolio",
-    description: "NextJS Portfolio",
+    title: "Portfolio",
+    description: "Personal Portfolio",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/arhaanhamid/nextjs-portfolio",
     previewUrl: "https://github.com/arhaanhamid",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "Share Prompts",
+    description: "Find and Share exceptional prompts",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/arhaanhamid/share-prompts",
+    previewUrl: "https://share-prompts-indol.vercel.app",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
+    title: "Solo Leveling",
+    description: "Top-Down Prespective Action Game",
+    image: "/images/projects/2.png",
+    tag: ["All", "Application"],
+    gitUrl: "https://github.com/arhaanhamid/sololeveling_javafx_game",
     previewUrl: "/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Quiz Me",
+    description: "An quiz/trivia webapp to test your knowledge",
+    image: "/images/projects/2.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/arhaanhamid/quiz-me_react",
+    previewUrl: "https://quiz-me-react.vercel.app/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
+    title: "Tenzies",
+    description: "Tenzies based game made using react",
+    image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/arhaanhamid/tenzies-game_react",
+    previewUrl: "https://tenzies-game-react-ochre.vercel.app/",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
+    title: "BlackBoxes",
+    description: "A simple webapp puzzle game made using react",
+    image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/arhaanhamid/quiz-me_react",
+    previewUrl: "https://blackboxes-game-react.vercel.app/",
   },
 ];
 
@@ -98,8 +98,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Application"
+          isSelected={tag === "Application"}
         />
       </div>
 
