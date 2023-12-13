@@ -54,7 +54,7 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap:16 sm:py-16 xl:px-16">
-        <Image src="/images/about-me.png" width={500} height={500} alt="" />
+        <Image src="/images/dp.png" width={500} height={600} alt="" />
         {/* <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
           <Image
             src="/images/me.png"
