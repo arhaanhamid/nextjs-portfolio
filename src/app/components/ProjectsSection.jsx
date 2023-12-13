@@ -5,15 +5,15 @@ import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
-  // {
-  //   id: 1,
-  //   title: "Portfolio",
-  //   description: "Personal Portfolio",
-  //   image: "/images/projects/1.png",
-  //   tag: ["All", "Web"],
-  //   gitUrl: "https://github.com/arhaanhamid/nextjs-portfolio",
-  //   previewUrl: "https://github.com/arhaanhamid",
-  // },
+  {
+    id: 1,
+    title: "Portfolio",
+    description: "Personal Portfolio",
+    image: "/images/projects/portfolio.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/arhaanhamid/nextjs-portfolio",
+    previewUrl: "https://github.com/arhaanhamid",
+  },
   {
     id: 2,
     title: "Share Prompts",
