@@ -30,7 +30,7 @@ const projectsData = [
     image: "/images/projects/share_prompts.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/arhaanhamid/share-prompts",
-    previewUrl: "https://share-prompts-indol.vercel.app",
+    previewUrl: "https://shareprompts-next.vercel.app/",
   },
   {
     id: 4,
