@@ -7,15 +7,24 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "Strawhat-Adventures",
+    description: "Open Blog App",
+    image: "/images/projects/blog.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/arhaanhamid/blog-nextjs/",
+    previewUrl: "https://strawhat-adventures.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Portfolio",
     description: "Personal Portfolio",
     image: "/images/projects/portfolio.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/arhaanhamid/nextjs-portfolio",
-    previewUrl: "https://github.com/arhaanhamid",
+    previewUrl: "https://arhaanhamid.vercel.app",
   },
   {
-    id: 2,
+    id: 3,
     title: "Share Prompts",
     description: "Find and Share exceptional prompts",
     image: "/images/projects/share_prompts.png",
@@ -24,7 +33,7 @@ const projectsData = [
     previewUrl: "https://share-prompts-indol.vercel.app",
   },
   {
-    id: 3,
+    id: 4,
     title: "Solo Leveling",
     description: "Top-Down Prespective Action Game",
     image: "/images/projects/solo_leveling.jpg",
@@ -33,7 +42,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Quiz Me",
     description: "An quiz/trivia webapp to test your knowledge",
     image: "/images/projects/quiz_me.jpg",
@@ -42,7 +51,7 @@ const projectsData = [
     previewUrl: "https://quiz-me-react.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Tenzies",
     description: "Tenzies based game made using react",
     image: "/images/projects/tenzies_game.png",
@@ -51,7 +60,7 @@ const projectsData = [
     previewUrl: "https://tenzies-game-react-ochre.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "BlackBoxes",
     description: "A simple webapp puzzle game made using react",
     image: "/images/projects/black_boxes.png",
@@ -60,7 +69,7 @@ const projectsData = [
     previewUrl: "https://blackboxes-game-react.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Meme Generator",
     description:
       "Generate your own memes using this meme generator made using react",
@@ -70,7 +79,7 @@ const projectsData = [
     previewUrl: "https://meme-generator-react-psi.vercel.app/",
   },
   {
-    id: 8,
+    id: 9,
     title: "URL Shortener",
     description:
       "Shorten your long urls for free and keep them easy to remember.",
@@ -80,7 +89,7 @@ const projectsData = [
     previewUrl: "https://url-shortener-k8ej.onrender.com/",
   },
   {
-    id: 9,
+    id: 10,
     title: "Exercise Tracker",
     description: "Track you daily exercise and keep a log of them.",
     image: "/images/projects/api.png",
@@ -89,7 +98,7 @@ const projectsData = [
     previewUrl: "https://exercise-tracker-microservice-if04.onrender.com/",
   },
   {
-    id: 10,
+    id: 11,
     title: "File Metadata",
     description: "Upload a file and get its metadata.",
     image: "/images/projects/api.png",
@@ -98,7 +107,7 @@ const projectsData = [
     previewUrl: "https://file-metadata-microservice-p536.onrender.com/",
   },
   {
-    id: 11,
+    id: 12,
     title: "Request Header Parser",
     description: "Get the header data of any request.",
     image: "/images/projects/api.png",
@@ -107,7 +116,7 @@ const projectsData = [
     previewUrl: "https://request-header-parser-microservice-cjqj.onrender.com/",
   },
   {
-    id: 12,
+    id: 13,
     title: "TImestamp Microservice",
     description: "Write any date in the url and get its proper timestamp.",
     image: "/images/projects/api.png",
