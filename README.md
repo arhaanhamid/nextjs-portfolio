@@ -15,16 +15,16 @@ Having a personal portfolio is crucial for presenting yourself to potential empl
 
 Follow these steps to get a copy of the project up and running on your local machine.
 
-1. **Clone the repository:**
+1. **Clone the repository:**  
    git clone https://github.com/your-username/your-portfolio.git
    
-3. **Navigate to the project folder:**
+3. **Navigate to the project folder:**  
    cd your-portfolio
    
-5. **Install dependencies:**
+5. **Install dependencies:**  
    npm install
    
-4.**Run the development server:**
+4.**Run the development server:**  
    npm run dev
    
 The portfolio should now be accessible at http://localhost:3000 in your web browser.
