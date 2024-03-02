@@ -20,7 +20,7 @@ const projectsData = [
     ],
     tag: ["All", "Web"],
     gitUrl: "https://github.com/arhaanhamid/tasker-nextjs/",
-    previewUrl: "https://https://tasker-nextjs.vercel.app/",
+    previewUrl: "https://tasker-nextjs.vercel.app/",
   },
   {
     id: 2,
