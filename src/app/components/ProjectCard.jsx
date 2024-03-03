@@ -52,19 +52,18 @@ const ProjectCard = ({
       </div>
       {tech.map((item, index) => {
         const randomColor = getRandomColor();
-        console.log(randomColor);
         return (
           <div
-            className="inline-block whitespace-nowrap rounded-full bg-sky-50 px-[1em] py-[1em] text-center align-baseline text-[0.75em] font-bold leading-none  mr-2 my-3"
+            className="inline-block whitespace-nowrap rounded-full bg-sky-50 px-[0.7em] py-[0.3em] text-center align-baseline text-[0.75em] font-bold leading-none  mr-2 my-3"
             key={index}
           >
-            <em style={{ color: randomColor }}>#{item}</em>
+            <span style={{ color: randomColor }}>{item}</span>
           </div>
         );
       })}
 
       <div className="text-white rounded-b-xl bg-[#181818] py-3 px-2">
-        <h5 className="text-2xl font-semibold mb-2">{title}</h5>
+        <h5 className="text-3xl font-semibold mb-2">{title}</h5>
         <p className="text-[#ADB7BE]">{description}</p>
       </div>
     </div>

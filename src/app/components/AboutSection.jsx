@@ -8,14 +8,18 @@ const TAB_DATA = [
     title: "skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
+      <ul className="list-disc pl-2 text-xl">
         <li>Javascript</li>
-        <li>ReactJs</li>
-        <li>NextJs</li>
-        <li>TailwindCSS</li>
-        <li>Java</li>
-        <li>SpringBoot</li>
+        <li>Core Java</li>
+        <li>React.js</li>
+        <li>Next.js</li>
+        <li>MongoDB</li>
         <li>MySQL</li>
+        <li>SpringBoot</li>
+        <li>TailwindCSS</li>
+        <li>Tailwind UI Libraries</li>
+        <li>CSS</li>
+        <li>MaterialUI, Bootstrap etc</li>
       </ul>
     ),
   },
@@ -24,9 +28,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>B.Sc IT</li>
-        <li>M.Sc IT</li>
-        <li>React + SpringBoot Full Stack Course</li>
+        <li>Bachelors of Science in Information Technology (B.Sc IT)</li>
+        <li>Masters of Science in Information Technology (M.Sc IT)</li>
       </ul>
     ),
   },
@@ -67,33 +70,32 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a software engineer with a passion for learning new
-            technologies and developing new projects. I have a strong background
-            in computer science and a strong interest in web development. I am
-            currently looking for opportunities to work in the field of web
-            development.
+            {`🚀 Hi, I'm Suham, a passionate full-stack web developer fueled by an
+            insatiable hunger for learning. From crafting seamless front-end
+            experiences to architecting robust back-end solutions, I thrive on
+            the dynamic challenges of the digital realm. Embracing every
+            opportunity to grow, I navigate the evolving landscape of technology
+            with creativity and precision. Let's collaborate and turn innovative
+            ideas into impactful digital realities. 🌐💻✨`}
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
               active={tab === "skills"}
               selectTab={() => handleTabChange("skills")}
             >
-              {" "}
-              Skills{" "}
+              Skills
             </TabButton>
             <TabButton
               active={tab === "education"}
               selectTab={() => handleTabChange("education")}
             >
-              {" "}
-              Education{" "}
+              Education
             </TabButton>
             <TabButton
               active={tab === "experience"}
               selectTab={() => handleTabChange("experience")}
             >
-              {" "}
-              Experience{" "}
+              Experience
             </TabButton>
           </div>
           <div className="mt-8">
