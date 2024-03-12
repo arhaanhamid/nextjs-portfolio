@@ -18,13 +18,13 @@ export const projectsData = [
   },
   {
     id: 2,
-    title: "Strawhat-Adventures",
+    title: "Bloggy",
     description: "Open Blog App",
     image: "/images/projects/blog.png",
     tech: ["Next.JS", "React.JS", "MongoDB", "Javascript", "CSS"],
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/arhaanhamid/blog-nextjs/",
-    previewUrl: "https://strawhat-adventures.vercel.app/",
+    gitUrl: "https://github.com/arhaanhamid/bloggy-nextjs/",
+    previewUrl: "https://bloggy.vercel.app/",
   },
   {
     id: 3,
@@ -33,8 +33,8 @@ export const projectsData = [
     image: "/images/projects/portfolio.png",
     tag: ["All", "Web"],
     tech: ["Next.JS", "React.JS", "Javascript", "TailwindCSS", "Framer-Motion"],
-    gitUrl: "https://github.com/arhaanhamid/nextjs-portfolio",
-    previewUrl: "https://arhaanhamid.vercel.app",
+    gitUrl: "https://github.com/arhaanhamid/portfolio-nextjs",
+    previewUrl: "https://arhaanhamid.vercel.app/",
   },
   {
     id: 4,
