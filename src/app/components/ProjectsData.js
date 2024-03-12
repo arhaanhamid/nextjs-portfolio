@@ -24,7 +24,7 @@ export const projectsData = [
     tech: ["Next.JS", "React.JS", "MongoDB", "Javascript", "CSS"],
     tag: ["All", "Web"],
     gitUrl: "https://github.com/arhaanhamid/bloggy-nextjs/",
-    previewUrl: "https://bloggy.vercel.app/",
+    previewUrl: "https://bloggy-nextjs.vercel.app/",
   },
   {
     id: 3,
