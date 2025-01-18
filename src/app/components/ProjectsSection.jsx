@@ -56,7 +56,8 @@ const ProjectsSection = () => {
         ref={ref}
         className="grid md:grid-cols-2 md:gap-20 lg:grid-cols-3 lg:gap-12 gap-10"
       >
-        {filteredProjects.map((project, index) => (
+        {filteredProjects
+        .map((project, index) => (
           <motion.li
             key={index}
             variants={cardVariants}

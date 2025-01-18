@@ -1,6 +1,39 @@
 export const projectsData = [
   {
-    id: 1,
+    id: 16,
+    title: "VoyageVerse",
+    description: "Your Ultimate Travel Companion",
+    image: "/images/projects/voyageverse.png",
+    tech: [
+      "Next.JS",
+      "React.JS",
+      "MongoDB",
+      "Cloudinary",
+      "Javascript",
+      "TailwindCSS",
+      "CSS",
+    ],
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/arhaanhamid/voyageverse-nextjs/",
+    previewUrl: "https://voyageverse-nextjs.vercel.app/",
+  },
+  {
+    id: 15,
+    title: "AI IdeaBot",
+    description: "Empowering Your Ideas with AI",
+    image: "/images/projects/ai-ideabot.png",
+    tech: [
+      "React.JS",
+      "ExpressJS",
+      "Javascript",
+      "CSS",
+    ],
+    tag: ["All", "Web"],
+    gitUrl: "https://https://github.com/arhaanhamid/ai-ideabot-mern/",
+    previewUrl: "/",
+  },
+  {
+    id: 14,
     title: "Tasker",
     description: "Task Management Webapp",
     image: "/images/projects/tasker.png",
@@ -17,7 +50,7 @@ export const projectsData = [
     previewUrl: "https://tasker-nextjs.vercel.app/",
   },
   {
-    id: 2,
+    id: 13,
     title: "Bloggy",
     description: "Open Blog App",
     image: "/images/projects/blog.png",
@@ -27,7 +60,7 @@ export const projectsData = [
     previewUrl: "https://bloggy-nextjs.vercel.app/",
   },
   {
-    id: 3,
+    id: 12,
     title: "Portfolio",
     description: "Personal Portfolio",
     image: "/images/projects/portfolio.png",
@@ -37,7 +70,7 @@ export const projectsData = [
     previewUrl: "https://arhaanhamid.vercel.app/",
   },
   {
-    id: 4,
+    id: 11,
     title: "Share Prompts",
     description: "Find and Share exceptional prompts",
     image: "/images/projects/share_prompts.png",
@@ -47,7 +80,7 @@ export const projectsData = [
     previewUrl: "https://shareprompts-next.vercel.app/",
   },
   {
-    id: 5,
+    id: 10,
     title: "Solo Leveling",
     description: "Top-Down Prespective Action Game",
     image: "/images/projects/solo_leveling.jpg",
@@ -57,7 +90,7 @@ export const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 6,
+    id: 9,
     title: "Quiz Me",
     description: "An quiz/trivia webapp to test your knowledge",
     image: "/images/projects/quiz_me.jpg",
@@ -67,7 +100,7 @@ export const projectsData = [
     previewUrl: "https://quiz-me-react.vercel.app/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Tenzies",
     description: "Tenzies based game made using react",
     image: "/images/projects/tenzies_game.png",
@@ -77,7 +110,7 @@ export const projectsData = [
     previewUrl: "https://tenzies-game-react-ochre.vercel.app/",
   },
   {
-    id: 8,
+    id: 7,
     title: "BlackBoxes",
     description: "A simple webapp puzzle game made using react",
     image: "/images/projects/black_boxes.png",
@@ -87,7 +120,7 @@ export const projectsData = [
     previewUrl: "https://blackboxes-game-react.vercel.app/",
   },
   {
-    id: 9,
+    id: 6,
     title: "Meme Generator",
     description:
       "Generate your own memes using this meme generator made using react",
@@ -98,7 +131,7 @@ export const projectsData = [
     previewUrl: "https://meme-generator-react-psi.vercel.app/",
   },
   {
-    id: 10,
+    id: 5,
     title: "URL Shortener",
     description:
       "Shorten your long urls for free and keep them easy to remember.",
@@ -109,7 +142,7 @@ export const projectsData = [
     previewUrl: "https://url-shortener-k8ej.onrender.com/",
   },
   {
-    id: 11,
+    id: 4,
     title: "Exercise Tracker",
     description: "Track you daily exercise and keep a log of them.",
     image: "/images/projects/api.png",
@@ -119,7 +152,7 @@ export const projectsData = [
     previewUrl: "https://exercise-tracker-microservice-if04.onrender.com/",
   },
   {
-    id: 12,
+    id: 3,
     title: "File Metadata",
     description: "Upload a file and get its metadata.",
     image: "/images/projects/api.png",
@@ -129,7 +162,7 @@ export const projectsData = [
     previewUrl: "https://file-metadata-microservice-p536.onrender.com/",
   },
   {
-    id: 13,
+    id: 2,
     title: "Request Header Parser",
     description: "Get the header data of any request.",
     image: "/images/projects/api.png",
@@ -139,7 +172,7 @@ export const projectsData = [
     previewUrl: "https://request-header-parser-microservice-cjqj.onrender.com/",
   },
   {
-    id: 14,
+    id: 1,
     title: "TImestamp Microservice",
     description: "Write any date in the url and get its proper timestamp.",
     image: "/images/projects/api.png",
